@@ -9,9 +9,11 @@
 
 <body>
     <header>
-        <div>
+        <div class="top">
+        </div>
+        <div class="headbar">
             <div>
-                <img class="blackHeart" src="LINK TO IMAGE GOES HERE" alt="black heart">
+                <img class="blackHeart" src="images/black-heart.png" alt="black-heart">
                 <span> Nifty Penguin Magic </span>
             </div>
                 <nav>
@@ -24,38 +26,71 @@
                         <li> <a href="#"> Support </a> </li>
                     </ul>
                 </nav>
-            </div>
+        </div>
         
-            <div>
-            <!-- add logo, search bar and buttons (or links and style them as buttons later)        -->
-            </div>
+        <div class="divbar">
+            <img src="images/npm-logo.png" alt="npm-logo" class="logo">
+            <form action="/search" method="get" class="searchandbuttons">
+                <span class="lupabox">
+                    <img src="images/magnifying-glass.png" alt="magnifying-glass" class="lupa">
+                </span>
+                <input type="search" name="searchbar" placeholder="Search packages" class="searchbar">
+                <input type="button" value="Search" id="redsearchbutton">
+                <div class="twobuttons">
+                    <input type="button" value="Join" id="join">
+                    <input type="button" value="Log In" id="login">
+                </div>
+            </form>
+        </div>
     </header>
+
+    <!--SECTION 1-->
+    <section class="section1">
+      <h1>Build amazing things</h1>
+      <article>Essential JavaScript development tools that help you go to market faster and build powerful applications using modern open source code. </article>
+      <div class="container">
+        <a href="#" id="seeplans">See plans</a>
+        <a href="#" id="join-free">Join for free</a>
+      </div>
+    </section>
+
+    <!--SECTION 2-->
+    <section class="section2">
+        <img src="images/triangle-hexagon.svg" alt="triangle-hexagon">
+        <h3>Bring the best of open source to your company</h3>
+        <article>npm is the tool used by over 11,000,000 JavaScript developers around the world. Your developers already use it. Your company depends on it. Create an Org and get more out of the tools your team already knows and loves.</article>
+    </section>
+
+    <!--SECTION 3-->
+    <section class="section3">
+      <div class="divparent">
+        <div>
+            <img src="images/zero-configuration.svg" alt="zero-configuration">
+            <h3>Zero Configuration</h3>
+            <p>Create an org, add your team, and start collaborating. Nothing to configure, set up, or manage.</p>
+        </div>
+      
+        <div>
+            <img src="images/team-management.svg" alt="team-management">
+            <h3>Team Management</h3>
+            <p>Control who has access to what modules within your team namespace using straightforward team management capabilities.</p>
+        </div>
+
+        <div>
+            <img src="images/familiar-features.svg" alt="familiar-features">
+            <h3>Familiar features</h3>
+            <p>npm Orgs has 100% parity with all the public npm registry features your developers already use.</p>
+        </div>
+
+        <div>
+            <img src="images/npm-audit.svg" alt="npm-audit">
+            <h3>npm audit</h3>
+            <p>Enjoy the security auditing features built into the npm client, a zero-friction way to make open source software safer.</p>
+        </div>
+      </div>
+      <div class="orgbox">
+        <a href="#">Create an Org</a>
+      </div>
+    </section>
 </body>
 </html>
-
-NPM Clone
-Nifty Penguin Magic 
-npm Enterprise 
-Products 
-Solutions 
-Resources 
-Docs 
-Support 
-Search 
-Join
-Log In
-Build amazing things
-Essential JavaScript development tools that help you go to market faster and build powerful applications using modern open source code. 
-See plans 
-Join for free
-Bring the best of open source to your company
-npm is the tool used by over 11,000,000 JavaScript developers around the world. Your developers already use it. Your company depends on it. Create an Org and get more out of the tools your team already knows and loves.
-Zero configuration
-Create an org, add your team, and start collaborating. Nothing to configure, set up, or manage.
-Team management 
-Control who has access to what modules within your team namespace using straightforward team management capabilities. 
-Familiar features 
-npm Orgs has 100% parity with all the public npm registry features your developers already use. 
-npm audit 
-Enjoy the security auditing features built into the npm client, a zero-friction way to make open source software safer. 
-Create an Org 

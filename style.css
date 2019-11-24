@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: .875rem;
+}
+
+.top {
+    background-color: red;
+    width: auto;
+    padding-top: 2px;
+}
+
+.headbar {
+    height: 50px;
+}
+
+.headbar span {
+    font-size: .875rem;
+}
+
+.divbar {
+    display: flex;
+    justify-content: start;
+}   
+
+.searchandbuttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 15px;
+
+}
+
+.lupabox {
+    padding: 14px 4px 0 16px;
+    background-color: rgba(0,0,0,.05);
+}
+
+.searchbar {
+    background-color: rgba(0,0,0,.05);
+    height: 40px;
+    width: 850px;
+    border: none;
+}
+
+.lupa {
+    width: 20px;
+}
+
+#redsearchbutton {
+    background-color: #fb3e44;
+    letter-spacing: 0.3px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.twobuttons {
+    height: 40px;
+    text-decoration: none;
+    display: flex;
+    align-items:center;
+    padding: 0 0 0 18px;
+}
+
+#join {
+    width: 75px;
+    padding: 6px 8px 6px 8px;
+    border: 1px solid #9a9a9a;
+    border-radius: 0;
+    font-size: 15px;
+    color: rgba(0,0,0,.7);
+    line-height: 1.5;
+
+}
+
+#login {
+    color: rgba(0,0,0,.7);
+    margin-left: 10px;
+    padding: 7px 15px 7px 15px;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+}
+
+.logo {
+    width: 80px;
+    padding-right: 10px;
+}
+
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.section1 {
+    display: flex;
+    background-color: rgba(232,217,217,.3);
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.section1 h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1.15;
+    box-sizing: border-box;
+    margin: 40px 100px 40px 100px;
+
+}
+
+.section1 article {
+    font-size: 23px;
+    text-align: center;
+    margin: 20px 80px 20px 80px;
+    padding: 20px 150px 20px 150px;
+    line-height: 1.5;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.45rem;
+    font-weight: 700;
+    margin: 40px 80px 40px 80px;
+}
+
+#seeplans {
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    color: white;
+    margin: 20px 50px 20px 50px;
+    padding: 25px 70px 20px 70px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.15;
+}
+
+#join-free {
+    color: black;
+    background-color: white;
+    margin: 20px 50px 20px 50px;
+    padding: 25px 70px 20px 70px;
+    text-decoration: none;
+    line-height: 1.15;
+
+}
+
+.section2 {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+}
+
+.section2 img {
+    width: 240px;
+}
+
+.section2 h3 {
+    background-color: rgba(255,204,53,.4);
+    font-size: 35px;
+    font-weight: 900;
+    transform: skew(9deg,0deg);
+    font-style: italic; 
+    margin: 30px 20px 20px 30px;
+}
+
+.section2 article {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 50px 20px 50px;
+    padding: 20px 200px 20px 200px;
+    line-height: 1.5;
+    
+}
+
+.section3 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padd
+
+}
+
+.divparent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-left: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 90%;
+
+}
+
+.divparent div{
+    margin: 20px;
+}
+
+.divparent p {
+    font-size: 15px;
+    text-align: start;
+}
+
+.divparent img {
+    width: 47px;
+    ;
+}
+
+.divparent h3 {
+    color: #ED1C24;
+    font-size: 1rem;
+    padding: 15px 15px 15px 0px;
+    text-align: start;
+    font-weight: 700;
+}
+
+.orgbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.orgbox a {
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    color: white;
+    background-color: black;
+    margin: 20px 50px 20px 50px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 260px;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
